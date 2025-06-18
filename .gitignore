@@ -1,6 +1,4 @@
 .dvc/
-data/processed/
-models/
 __pycache__/
 *.pyc
 *.pkl
