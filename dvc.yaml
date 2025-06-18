@@ -1,0 +1,13 @@
+stages:
+  prepare:
+    cmd: python scripts/data_cleaning.py
+    deps:
+      - data/raw/insurance_data.csv
+    outs:
+      - data/processed/insurance_data_clean.csv
+  train:
+    cmd: python scripts/modeling.py
+    deps:
+      - data/processed/insurance_data_clean.csv
+    outs:
+      - models/xgboost_model.json
