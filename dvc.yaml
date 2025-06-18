@@ -2,7 +2,7 @@ stages:
   prepare:
     cmd: python scripts/data_cleaning.py
     deps:
-      - data/raw/insurance_data.csv
+      - data/raw/MachineLearningRating_v3.txt
     outs:
       - data/processed/insurance_data_clean.csv
   train:
