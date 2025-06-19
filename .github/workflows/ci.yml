@@ -28,4 +28,4 @@ jobs:
       - name: Run EDA notebook (smoke test)
         run: |
           pip install nbconvert
-          jupyter nbconvert --to notebook --execute notebooks/01_eda.ipynb
+          jupyter nbconvert --to notebook --execute notebooks/task1_eda.ipynb
