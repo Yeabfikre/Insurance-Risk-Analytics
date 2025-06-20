@@ -3,7 +3,6 @@
 data/raw/MachineLearningRating_v3.txt
 data/raw/*.txt
 
-data/processed/
 models/
 __pycache__/
 *.pyc
